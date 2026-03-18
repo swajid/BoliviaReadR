@@ -1,0 +1,20 @@
+---
+title: "Getting started with BoliviaReadR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with BoliviaReadR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, eval = FALSE}
+library(BoliviaReadR)
+
+lr_sections()
+lr_latest(10)
+lr_headlines("mundo", n = 12)
+lr_search("economia", n = 10)
+```
+
+`BoliviaReadR` is a best-effort public-site reader for La Razon Bolivia.
+It is intentionally simple, transparent, and easy to inspect.

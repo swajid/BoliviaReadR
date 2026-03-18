@@ -1,0 +1,35 @@
+Package: BoliviaReadR
+Type: Package
+Title: Read Public News Content from La Razon Bolivia
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Sana", family = "W.", role = c("aut", "cre"), email = "sana@example.com")
+)
+Description: A lightweight, unofficial client for working with public pages from
+    La Razon Bolivia. The package wraps common section pages, headline retrieval,
+    article parsing, site-search style queries, and optional WordPress JSON API
+    calls when available. It is designed as a practical, transparent scraper for
+    reproducible exploratory analysis rather than an official API binding.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    dplyr,
+    httr2,
+    jsonlite,
+    purrr,
+    rlang,
+    rvest,
+    stringr,
+    tibble,
+    xml2
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://larazon.bo/
+BugReports: https://larazon.bo/
