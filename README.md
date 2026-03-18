@@ -4,6 +4,8 @@
 
 It is **not** an official client and it does **not** bypass authentication, paywalls, or anti-bot protections.
 
+![img](map-and-flag-of-bolivia.png)
+
 ## What it does
 
 - fetch public headlines from La Razón section pages
