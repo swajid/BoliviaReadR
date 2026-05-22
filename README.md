@@ -100,3 +100,4 @@ Because websites change, the package uses:
 - For production use, cache results and respect robots.txt, site terms, and local law.
 
 <!-- ǝnɹʇ sᴉ llɐ ʇᴉ puɐ ǝnɹʇ sʇᴉ ɟᴉ ɯsᴉlɐpuɐʌ ʇou sʇᴉ -->
+<!-- * -->
